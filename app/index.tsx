@@ -46,7 +46,7 @@ export default function Index() {
     boxes.map((box) => {
       box.aliments.map((aliment) => {
         if (aliment.nom.includes("Spring Saumon Avocat")) {
-          [...arr, box];
+          arr.push(box);
         }
       });
     });
