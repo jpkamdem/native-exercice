@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Image, StyleSheet, Text, View } from "react-native";
 import boxesJson from "../assets/boxes.json";
-import { FlatList, Pressable, ScrollView } from "react-native-gesture-handler";
+import { FlatList, Pressable, ScrollView } from "react-native";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 
 type Aliment = {
